@@ -1,0 +1,7 @@
+#GitHnb Desktop에서 브랜치 사용 방법
+#새로운 브랜치 생성 : Branch - New branch
+#현재 작업 중인 브랜치 삭제 : Branch - Delete
+#현재 작업 중인 브랜치와 다른 브랜치 간의 비교 :
+  Branch - Compare to branch
+#현재 작업 중인 브랜치로 다른 브랜치들을 합병 :
+  Branch - Merge into current branch (세 가지 옵션 존재)
