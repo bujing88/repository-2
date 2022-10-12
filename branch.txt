@@ -6,7 +6,7 @@ import random
 List = ["그라데이션", "스토커", "perfect"]
 
 def delPlayList():
-    addSong = input("제거할 곡 : ")
+    delSong = input("제거할 곡 : ")
     List.remove(addSong)
     
 def playList():
