@@ -8,6 +8,10 @@ List = ["그라데이션", "스토커", "perfect"]
 def addPlayList():
     addSong = input("추가할 곡 : ")
     List.append(addSong)
+
+def delPlayList():
+    delSong = input("제거할 곡 : ")
+    List.remove(addSong)
     
 def playList():
     randomList = random.randint(0, len(List)-1)
@@ -15,4 +19,5 @@ def playList():
 
 if __name__ == "__main__":
     addPlayList()
+    delPlayList()
     playList()
